@@ -10,8 +10,7 @@
     border-radius: 50%;
     overflow: hidden;
 }
-.nav-link, 
-.navbar-brand {
+.nav-link {
     &::after {
         @extend .link-after;
         width: 0;
