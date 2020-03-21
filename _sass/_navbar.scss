@@ -4,6 +4,12 @@
   height: 0.15em;
   background: $primary;
 }
+
+.my-img-fluid{
+  @extend .img-fluid;
+  width: 14.25rem;
+}
+
  .logo-image{
     width: 30%;
     height: auto;
